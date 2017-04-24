@@ -5,10 +5,16 @@ body {
 
 /* Main board containing the main header */
 .main-board {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 14rem;
+  padding-bottom: 14rem;
   margin-bottom: 0rem;
   border-radius: 0px;
+  color:white;
+  background-color: #FFF;
+  background-image: linear-gradient(to right bottom, black -20%,white 250%), url("https://raw.githubusercontent.com/ilya-kupchenko/ilya-kupchenko.github.io/master/fractal-1120769_1920.jpg");
+  background-blend-mode: darken;
+  background-size: cover;
+
 }
 
 /* Grey board for social sharing buttons */
