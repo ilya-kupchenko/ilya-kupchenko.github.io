@@ -1,3 +1,52 @@
-.navbar{
-    -webkit-box-orient: vertical;
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 2rem;
+}
+
+/* Main board containing the main header */
+.main-board {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0rem;
+  border-radius: 0px;
+}
+
+/* Grey board for social sharing buttons */
+.social-sharing-board {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-bottom: 0;
+  border-radius: 0px;
+  background-color: #333;
+  color: white;
+  box-sizing: border-box;
+  border: 0;
+  border-style: none;
+}
+
+/* Social sharing buttons */
+.btn-social {
+  color: white;
+  opacity: 0.8;
+  padding-top: 9px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 9px;
+  margin: 0;
+  border: 0;
+  border-style: none;
+  font-size: 16px;
+} 
+
+.btn-social:hover, .btn-social:focus {
+  opacity:1;
+  color: white;
+  border:0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: 0 !important;
+}
+
+.fa {
+  position:relative;
 }
