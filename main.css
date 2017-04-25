@@ -56,3 +56,27 @@ body {
 .fa {
   position:relative;
 }
+
+.portfolio-article-container {
+  float:left;
+  font-size:14px;
+  font-weight:normal;
+  line-height:23.8px;
+  padding-right:24px;
+  margin-bottom:0px;
+  margin-left:-16px;
+  margin-right:-16px;
+  margin-top:20px;
+  width:73%;
+  transition-delay:0s;
+  transition-duration:0.25s;
+  transition-property:all;
+  transition-timing-function:ease;
+  -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+}
+
+.portfolio-article {
+	width: 33.3%;
+	float: left;
+	margin-bottom: 45px;
+}
