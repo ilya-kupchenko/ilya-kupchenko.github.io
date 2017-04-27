@@ -1,17 +1,19 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 2rem;
+  padding-bottom: none;
+  background-color: #DDD;
 }
 
 /* Main board containing the main header */
 .main-board {
-  padding-top: 14rem;
-  padding-bottom: 14rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   margin-bottom: 0rem;
   border-radius: 0px;
   color:white;
   background-color: #FFF;
-  background-image: linear-gradient(to right bottom, black -20%,white 250%), url("https://raw.githubusercontent.com/ilya-kupchenko/ilya-kupchenko.github.io/master/fractal-1120769_1920.jpg");
+  background-image: linear-gradient(to right bottom, black -75%,white 200%), url("https://raw.githubusercontent.com/ilya-kupchenko/ilya-kupchenko.github.io/master/fractal-1120769_1920.jpg");
   background-blend-mode: darken;
   background-size: cover;
 
@@ -28,6 +30,7 @@ body {
   box-sizing: border-box;
   border: 0;
   border-style: none;
+  text-align: center;
 }
 
 /* Social sharing buttons */
@@ -41,7 +44,8 @@ body {
   margin: 0;
   border: 0;
   border-style: none;
-  font-size: 16px;
+  font-size: 20px;
+  line-height: normal;
 } 
 
 .btn-social:hover, .btn-social:focus {
@@ -57,26 +61,59 @@ body {
   position:relative;
 }
 
-.portfolio-article-container {
-  float:left;
-  font-size:14px;
-  font-weight:normal;
-  line-height:23.8px;
-  padding-right:24px;
-  margin-bottom:0px;
-  margin-left:-16px;
-  margin-right:-16px;
-  margin-top:20px;
-  width:73%;
-  transition-delay:0s;
-  transition-duration:0.25s;
-  transition-property:all;
-  transition-timing-function:ease;
-  -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+.card {
+  padding: 5px;
+  margin 5px;
+  box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.5);
+  transition: all 0.2s;
+  border:none;
 }
 
-.portfolio-article {
-	width: 33.3%;
-	float: left;
-	margin-bottom: 45px;
+.card:active, .card:focus {
+  box-shadow: none;
+}
+
+.card-columns {
+  margin-top: 20px;
+}
+
+.footer {
+  background: #999;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  padding-top:50px;
+  color: white;
+}
+
+.footer .fluid-container {
+  background: #333;
+  padding-top: 20px;
+}
+
+.bootstrap4-logo {
+  width: 100px;
+  max-width: 100px;
+  height: 100px;
+  max-height: 100px;
+  display: inline-block;
+  background-image: url("bootstrap4-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;  
+}
+
+.project-tag {
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin: 3px;
+  display: inline-block;
+  background-color: #888;
+  color: #333;
+  transition: 0.3s;
+}
+
+.project-tag:hover {
+  background-color: #DDD;
+  cursor: pointer;
 }
